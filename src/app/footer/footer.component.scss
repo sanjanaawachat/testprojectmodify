@@ -1,0 +1,35 @@
+.footerSection .icon2 a{
+    color:#fcdb00;
+  transition:all 0.2s linear;
+}
+
+.footerSection .icon2 a:hover{
+  color:skyblu;
+  transform:rotate(360deg) scale(1.3);
+}
+
+.footerSection ul{
+    margin-left:32%;
+}
+
+.footerSection ul li{
+   margin-right:30px;
+}
+
+.footerSection .col-9{
+    margin-bottom:135px;
+}
+
+.footerSection .col-1 a:link,
+.footerSection .col-1 a:visited{
+    color:#fff;
+}
+
+.icons a{
+    transition:all 0.3s linear;
+}
+
+.icons a:hover{
+    transform:scale(1.5) rotateY(360deg) perspective(400px);
+}
+

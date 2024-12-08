@@ -1,0 +1,100 @@
+
+<div class="container mt-5 p-5">
+  <h1>Lists</h1><hr>
+<ul class="list-group">
+    <li *ngFor="let skills of skillsArr" class="list-group-item">
+     i love {{skills}}
+    </li>
+</ul>
+
+
+<h1>Table</h1><hr>
+<table class="table table-bordered">
+    <thead>
+     <th>srno</th>
+     <th>fname</th>
+     <th>lname</th>
+     <th>email</th>
+     <th>contact</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let stu of studArr; let i = index">
+
+            <td>{{i+1}}</td>
+            <td>{{stu.fname}}</td>
+            <td>{{stu.lname}}</td>
+            <td>{{stu.email}}</td>
+            <td>{{stu.contact}}</td>
+            
+            </tr>
+    </tbody>
+</table>
+
+
+
+    <h1>Gallary</h1><hr><br>
+    <div class="row">
+ 
+      <div class="col-sm-4" >
+ 
+        <div class="card" style="width: 22rem;">
+            <img src="/assets/img1.webp" class="card-img-top" alt="..." style="width: 350px;height: 300px;">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+</div>
+</div>
+
+
+<div class="col-sm-4" >
+          <div class="card" style="width: 22rem;">
+            <img src="/assets/img2.webp" class="card-img-top" alt="..." style="width: 350px;height: 300px;">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+</div>
+
+
+<div class="col-sm-4" >
+          <div class="card" style="width: 22rem;">
+            <img src="/assets/img3.webp" class="card-img-top" alt="..." style="width: 350px;height: 300px;">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+</div>
+<div class="col-sm-4" >
+            <div class="card" style="width: 22rem;">
+              <img src="/assets/img4.webp" class="card-img-top" alt="..." style="width: 350px;height: 300px;">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+</div>
+<div class="col-sm-4" >
+                <div class="card" style="width: 22rem;">
+                  <img src="/assets/img5.webp" class="card-img-top" alt="..." style="width: 350px;height: 300px;">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+</div>
+<div class="col-sm-4" >
+        <div class="card" style="width: 22rem;">
+          <img src="/assets/img6.webp" class="card-img-top" alt="..." style="width: 350px;height: 300px;">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+</div>
+      </div>
+               
+
+      </div> 
+
+
+
+
+
+
